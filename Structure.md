@@ -1,10 +1,10 @@
 # Structure
 
-## Introduction
+## 1. Introduction
 
-[-] Introduction to the area the study is situated
+[/] Introduction to the area the study is situated
 [/] Describe the practical problem
-[-] significance of the problem
+[/] significance of the problem
 [-] summarise existing research
 	[-] Knowledge gaps
 	[-] research questions or goals
@@ -14,14 +14,14 @@
 [-] outlines the significance of these contributions
 [-] describe the structure of the remainder of the paper.
 
-## Method
+## 2. Method
 
 [-] Overview of research strategies and methods
 [-] Overview of methods of data collection and data analysis that have been used.
 [-] Justification for the methods.
 [-] Discuss research ethics
 
-## Problem and requirements
+## 3. Problem and requirements
 
 [-] Elaborated description and analysis of the practical problem adressed.
 	[-] Root cause analysis if needed.
@@ -30,7 +30,7 @@
 	[-] The process of problem analysis and requirements elicitation
 	[-] The application of the selected research strategies and methods and the use of the knowlege base.
 
-## Artefact
+## 4. Artefact
 
 [-] Describe artefact
 [-] Explain the structure, behaviour and function, preferably with examples.
@@ -41,13 +41,13 @@
 
 (This is often the main part of a research paper)
 
-## Evaluation
+## 5. Evaluation
 
 [-] Describe how the artefact has been evaluated.
 [-] Describe evaluation strategy and process:
 	[-] How the selected research strategies and methods were applied.
 
-## Discussion
+## 6. Discussion
 
 [-] Reflect on the research carried out and its contributions.
 [-] Identify limitations in the study
@@ -57,10 +57,10 @@
 [-] Suggest areas for future research.
 [-] Can also reflect on design science and the application of the method framework.
 
-## Conclusion
+## 7. Conclusion
 
 [-] Tie the papper together and show how the research questions have been answered, or how the research goals have been achieved.
 
-## References
+## 8. References
 
 ## Appendix

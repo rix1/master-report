@@ -10,3 +10,11 @@
 [cosytech]: http://cosytech.xyz
 [bachelor_thesis]: My bachelor thesis
 [WPP2015_Methodology.pdf]: http://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf
+
+
+[ds_bok1]:design science boka den lille
+[article_comprehensiveStudy]: A comprehensive study
+[article_2013selforganizingMAC]: artikkel på skrivebordet
+[2009MACprotocolcomparison]: artikkel i mappen
+[inett_helsedir_medtek_utstyr]: https://helsedirektoratet.no/medisinsk-utstyr/om-medisinsk-utstyr
+[inet_hl7]:https://www.hl7.org/fhir/
