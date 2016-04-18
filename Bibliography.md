@@ -18,3 +18,5 @@
 [2009MACprotocolcomparison]: artikkel i mappen
 [inett_helsedir_medtek_utstyr]: https://helsedirektoratet.no/medisinsk-utstyr/om-medisinsk-utstyr
 [inet_hl7]:https://www.hl7.org/fhir/
+
+[ecg_ambulatory_noise]: http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5738063

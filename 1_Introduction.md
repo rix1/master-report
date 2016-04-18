@@ -6,11 +6,9 @@
 
 This thesis presents the study and creation of an artefact that solves a practical problem of general interest. The project spanned the fall semester of 2015 and the spring semester of 2016.
 
-During the last couple of years there has been a significant increase in the number of connected devices. Hardware is getting smaller, and the demand for information is growing. The different parts of society is trying to keep up with the the development, which is largely driven by consumer technology. This technology shape our perceptions and expectations of what is possible. Because of this, we come to expect mature technology no matter where we go, or in what situation we are in.
+During the last couple of years there has been a significant increase in the number of connected devices. Hardware is getting cheaper and smaller, and the demand for information is growing. Economic prosperity, ageing population, the growing middle income population and sensitive public policy are key demand drivers for better healthcare and infrastructure. In addition, we are expecting 4 more billion people to habit our planet within the next 90 years [2][WPP2015_Methodology.pdf]. In order to facilitate all this, we need an infrastructure that is cost effective, sustainable and scales well.
 
-We are more connected than ever, and increasingly relying on information technology to measure, monitor, perform tasks and feed us with contextual information. In addition, we are expecting 4 more billion people to habit our planet within the next 90 years [2][WPP2015_Methodology.pdf]. In order to facilitate this growth, we need an infrastructure that is cost effective, sustainable and scales well. One of the most critical parts this infrastructure is healthcare. 
-
-How the healthcare adapts in this time of change will have a major impact on how this expected population growth impact our societies. Today, one of the most radical changes to our current practices is likely to come from the prevalence of new measuring tools and techniques. These take many forms and colours, but have a set of common qualities; they’re small, energy effective and operate with one or more wireless technologies. 
+How the healthcare adapts in this time of change will have a major impact on how this expected population growth impact our societies. Today, one of the most radical changes to our current practices is likely to come from the prevalence of new sensory technology, measuring tools and techniques. These take many forms and colours, but have a set of common qualities; they’re small, energy effective and operate with one or more wireless technologies. 
 
 
 ## Problem statement
@@ -18,12 +16,12 @@ How the healthcare adapts in this time of change will have a major impact on how
 	[/] Describe the practical problem
 	[-] significance of the problem
 	
-For this research project we wanted to investigate how feasible it is to introduce todays wireless low-energy technology in a medical environment. What are the shortcomings? Where are the barriers? What are the requirements? Utilising this technology could lower the barrier of practicing modern medicine.
+For this research project we wanted to investigate how feasible it is to introduce todays commercial wireless low-energy technology in a medical environment. What are the shortcomings? Where are the barriers? What are the requirements? Utilising this technology could lower the barrier of practicing modern medicine.
 
+The motivation for this thesis started last year when I was involved in a start up working with proximity technology for the consumer market [1][cosytech]. Having a background as a medical orderly and experience with software development for health care [1][bachelor_thesis] I wanted to investigate the possibilities and shortcomings of utilising wireless, low-power technology as a medium for new sensory equipment in a hospital setting.
 
-The motivation for this thesis started last year when I was involved in a start up woking with proximity technology for the consumer market [1][cosytech]. Having a background as a medical orderly and experience with software development for health care [1][bachelor_thesis] I wanted to investigate the possibilities and shortcomings of utilising wireless, low-power technology in a hospital setting.
+The main focus for this research project was the development of an artefact that solved the practical problem of ambulatory patient monitoring. As I will discuss further in section 3, this is a 
 
-The main focus for this research project will be the development of an artefact that will solve the practical problem of ambulatory patient monitoring.
 
 
 ## Existing research
