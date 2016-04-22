@@ -1,5 +1,7 @@
 # Structure
 
+## 0. Preface
+
 ## 1. Introduction
 
 [/] Introduction to the area the study is situated
@@ -22,6 +24,8 @@
 [-] Discuss research ethics
 
 ## 3. Problem and requirements
+
+[-] Prestudy(?)
 
 [-] Elaborated description and analysis of the practical problem adressed.
 	[-] Root cause analysis if needed.

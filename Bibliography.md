@@ -20,3 +20,15 @@
 [inet_hl7]:https://www.hl7.org/fhir/
 
 [ecg_ambulatory_noise]: http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5738063
+
+[patient_monitoring_history]:{"source":"PMC","accessed":{"date-parts":[[2016,4,20]]},"id":"aiid:2467176","title":"The aim and philosophy of patient monitoring","author":[{"family":"Stewart","given":"J. S. S."}],"container-title-short":"Postgrad Med J","container-title":"Postgraduate Medical Journal","ISSN":"0032-5473","issued":{"date-parts":[[1970,6]]},"page":"339-343","volume":"46","issue":"536","PMID":"4920275","PMCID":"PMC2467176","type":"article-journal"}
+
+---
+
+
+### Kan brukes:
+
+**Paper som beskriver personvern:**
+
+[2014_Privacy_preserving_Big_Data_Analytics]: Se artikkel
+[2014_ARX_A_Comprehensive_Tool_for_Anonymizing_Biomedical_Data]: Se artikkel
