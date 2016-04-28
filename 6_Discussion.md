@@ -14,7 +14,7 @@
 
 ## A brief look at Healthcare 3.0
 
-In recent years we have seen an increased effort made by both big and small actors in the technology industry in trying to commercialise health technology. They offer devices that track and monitor activity, sleep and physical traits like weight to name a few [[1][fitbit], [1][fitbit_scale]]. Some suggest that having more information about our health and bodies might shift the entire model of medical care; that we are now at the brink of a structural change, from a reactive to a proactive healthcare [[1][lynnechou], [1][helsit_kari], [1][johnmaeda],[1][deloitte_healthcare3_0]].
+In recent years we have seen an increased effort made by both big and small actors in the technology industry in trying to commercialize health technology. They offer devices that track and monitor activity, sleep and physical traits like weight to name a few [[1][fitbit], [1][fitbit_scale]]. Some suggest that having more information about our health and bodies might shift the entire model of medical care; that we are now at the brink of a structural change, from a reactive to a proactive healthcare [[1][lynnechou], [1][helsit_kari], [1][johnmaeda],[1][deloitte_healthcare3_0]].
 
 One of the key players in this structural change is an affordable but rigid monitoring system that offer consumers as well as physicians good user experiences, reliable and continuous data, as well as appropriate security measures to keep the highly sensitive health information private. 
 

@@ -2,26 +2,36 @@
 
 ## 0. Preface
 
+
+[-] Abstract
+[/] Describe the practical problem
+[/] significance of the problem
+
 ## 1. Introduction
 
 [/] Introduction to the area the study is situated
-[/] Describe the practical problem
-[/] significance of the problem
+[-] Motivation
+
+**Existing research**
 [-] summarise existing research
 	[-] Knowledge gaps
 	[-] research questions or goals
 	[-] Describe similar solutions to the problem
-[-] Overview of research strategies and methods that have been used
-[-] Summaries the contributions of the paper ,
-[-] outlines the significance of these contributions
+	
+**Project scope and structure**
 [-] describe the structure of the remainder of the paper.
+[-] Summaries the contributions of the paper
+[-] outlines the significance of these contributions
 
-## 2. Method
 
+## 2. Methods
+
+[-] Overview of research strategies and methods that have been used ,
 [-] Overview of research strategies and methods
 [-] Overview of methods of data collection and data analysis that have been used.
 [-] Justification for the methods.
 [-] Discuss research ethics
+
 
 ## 3. Problem and requirements
 

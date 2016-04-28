@@ -26,12 +26,12 @@ Replacing the wall-mounted cables with a wireless link would improve this situat
 
 ### On intended use
 
-I paid several visits to both St. Olavs and Vestre Viken HF in order to observe and talk to eksperts in the domain of patient monitoring. Karl Øyri made it clear that I had to consider the *intended use* for my artefact. However convenient, monitoring ambulatory patients is merely an action following an an intention, not the goal in itself. As mentioned, many before me have taken the rather deterministic approach of looking at the technology X and claiming it will revolutionise health care because of its properties and possibilities. Therefore we must ask the question, for what patient profile are we solving the problem? What is the intended use?
+I paid several visits to both St. Olavs and Vestre Viken HF in order to observe and talk to experts in the domain of patient monitoring. Karl Øyri made it clear that I had to consider the *intended use* for my artifact. However convenient, monitoring ambulatory patients is merely an action following an an intention, not the goal in itself. As mentioned, many before me have taken the rather deterministic approach of looking at the technology X and claiming it will revolutionize health care because of its properties and possibilities. Therefore we must ask the question, for what patient profile are we solving the problem? What is the intended use?
 
-At Vestre Viken a centralised monitoring station similar to the one I visited at St. Olavs was located at the intensive care unit. In addition to patients located in the ICU, they also monitored patients in other parts of the hospital connected via telemetry. Both the local and the remote patients were connected to a 5 lead (EASI) ECG setup. If there was something suspicious with the readings on the screen, both the ICU and the unit with the remote patients had several standalone 12-lead ECG units that could be connected to the patient on request. Through a demonstration, I was shown how a patient was connected to the standalone ECG device with 10 electrodes in order to get the full 12-lead resolution. This device was mobile (on wheels) and had the form factor of a small laptop computer. It was standalone in the sense that it's only output was a printed exert from the examination as shown in figure [1][FIGURE_PAPPA_ECG_PRINT] from a built in printer. We also visited two other medical units at the same hospital that did ECG monitoring. Both of which used a 3-lead setup. This stands to show that at Vestre Viken, 3 and 5-lead setups are most used in continous monitoring. The full 12-lead was only used in short examinations on demand. This practice was also confirmed Clinic of Cardiology at St. Olavs.
+At Vestre Viken a centralized monitoring station similar to the one I visited at St. Olavs was located at the intensive care unit. In addition to patients located in the ICU, they also monitored patients in other parts of the hospital connected via telemetry. Both the local and the remote patients were connected to a 5 lead (EASI) ECG setup. If there was something suspicious with the readings on the screen, both the ICU and the unit with the remote patients had several standalone 12-lead ECG units that could be connected to the patient on request. Through a demonstration, I was shown how a patient was connected to the standalone ECG device with 10 electrodes in order to get the full 12-lead resolution. This device was mobile (on wheels) and had the form factor of a small laptop computer. It was standalone in the sense that it's only output was a printed exert from the examination as shown in figure [FIGURE][FIGURE_PAPPA_ECG_PRINT] from a built in printer. We also visited two other medical units at the same hospital that did ECG monitoring. Both of which used a 3-lead setup. This stands to show that at Vestre Viken, 3 and 5-lead setups are most used in continuous monitoring. The full 12-lead was only used in short examinations on demand. This practice was also confirmed Clinic of Cardiology at St. Olavs.
 
-Based on these observations, the intended use of the artefact would be similar to the role played by telemetry systems today. 
-The artefact is intended to be used for monitoring patients that are expected to experience, or are vulnerable to, heart irregularities and/or defects. See table [1][TABLE_HEART_IRREGULARITIES] describe these irregularities further. Because irregularities can happen at any time of the day, continous monitoring is a fundamental requirement to the artefact.
+Based on these observations, the intended use of the artifact would be similar to the role played by telemetry systems today. 
+The artifact is intended to be used for monitoring patients that are expected to experience, or are vulnerable to, heart irregularities and/or defects. See table [1][TABLE_HEART_IRREGULARITIES] describe these irregularities further. Because irregularities can happen at any time of the day, continuous monitoring is a fundamental requirement to the artifact.
 
 One possible configuration could be wiring up a patient with 10 electrodes, but only having 3 of them activated at a time. Further, one would need to calculate the trade off between doing the ECG analysis onboard the chip versus streaming the data continuously to a WBAN gateway. Either way, the central monitoring station would get notified when abnormalities happened. If the signals were fuzzy, or the doctor demanded higher resolution{1} the remaining 7 electrodes could be activated resulting in a 12-lead ECG. This would match the existing practice of doing low resolution monitoring, and getting details on demand. One possible scenario this enables is the experience where the doctor have 
 
@@ -52,7 +52,7 @@ SIDENOTE: When observing the telemetry readings I got to see for myself how sens
 		[-] The application of the selected research strategies and methods and the use of the knowlege base.
 
 
-This section describes the requirements for the artefact. First we outline the artefact, then an introduction of the stakeholders and their roles follow, before elaborating on non-functional requirements. Lastly, a comparison of the different stakeholders and their concerns are conducted. 
+This section describes the requirements for the artifact. First we outline the artifact, then an introduction of the stakeholders and their roles follow, before elaborating on non-functional requirements. Lastly, a comparison of the different stakeholders and their concerns are conducted. 
 
 
 ### Stakeholders
@@ -69,7 +69,7 @@ Because of the interdisciplinary nature of this project, we have to include a br
 **Product owners:**
 
 - Technical engineer: Technical engineer is defined as the medical and biomedical maintenance engineer responsible for installing and maintaining the technical equipment used for medical purposes at hospitals. Among other things, they are responsible for doing technical maintenance  on the central heart monitoring system, which is as close as we come to an established way of monitoring vital signs of multiple patients in hospitals today.
-- Purchasing organisation: Depending on the local laws, policies and governance at different hospitals and hospital regions, the purchasing routines may be different. Often these routines also differ based on what type of medical equipment this is, and it’s intended use (e.g. disposable vs reusable equipment) [1][interview_heidi], [1][inett_helsedir_medtek_utstyr]. Either way, the department stakeholder represents the organisational unit(s) responsible for purchasing one or more parts of our proposed artefact. Note, because our artefact stack spans the full network stack, it also might span multiple purchasing organisations. Therefore, implementing our artefact may be difficult in practice. This is a concern for the feasibility of our artefact, and must be taken into account when developing the requirements.  
+- Purchasing organization: Depending on the local laws, policies and governance at different hospitals and hospital regions, the purchasing routines may be different. Often these routines also differ based on what type of medical equipment this is, and it’s intended use (e.g. disposable vs reusable equipment) [1][interview_heidi], [1][inett_helsedir_medtek_utstyr]. Either way, the department stakeholder represents the organizational unit(s) responsible for purchasing one or more parts of our proposed artifact. Note, because our artifact stack spans the full network stack, it also might span multiple purchasing organizations. Therefore, implementing our artifact may be difficult in practice. This is a concern for the feasibility of our artifact, and must be taken into account when developing the requirements.  
 
 
 **Other stakeholders:**
@@ -78,12 +78,12 @@ Because of the interdisciplinary nature of this project, we have to include a br
 - Device Manufacturers:
   - Medical devices: This stakeholder represents the manufacturers of medical-grade wireless monitoring nodes. Popular manufacturer of sensory equipment today include Philips, Siemens, GE and more.
   - Commercial products: This represents manufacturers of consumer technology for monitoring health and vital signs. Information gathered both before and after a person is admitted to the hospital could be of medical value.
-- Commercial software providers: This stakeholder represents all the 3rd party consumer technology that track, gather and displays information from various consumer products. This stakeholder is often the same as device manufacturers, it could also be an independent company specialising in personal health services. Common for these providers is that they are in large part concerned with integrations to other services.
+- Commercial software providers: This stakeholder represents all the 3rd party consumer technology that track, gather and displays information from various consumer products. This stakeholder is often the same as device manufacturers, it could also be an independent company specializing in personal health services. Common for these providers is that they are in large part concerned with integrations to other services.
 
 
 ### Non-functional Requirements
 
-The non-functional requirements, or qualities of the artefact.
+The non-functional requirements, or qualities of the artifact.
 
 Ease of use
 
@@ -92,7 +92,7 @@ Ease of use
 ### Functional Requirements
 
 > ANSWER: What requirements does physicians demand from physiological sensors?
-We have to answer for timelyness, ECG resolution and sample rate.
+We have to answer for timeliness, ECG resolution and sample rate.
 
 
 - Delay tolerant

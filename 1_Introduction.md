@@ -2,51 +2,29 @@
 
 # Introduction
 
-	[-] Introduction to the area the study is situated
+	// Introduction to the area the study is situated
 
-<!-- This thesis presents the study and creation of an artefact that solves a practical problem of general interest. The project spanned the fall semester of 2015 and the spring semester of 2016. -->
+During the last couple of years there has been a significant increase in the number of connected devices. Hardware is getting cheaper and smaller, and the demand for information is growing. Economic prosperity, aging population, the growing middle income population and sensitive public policy are key demand drivers for better healthcare and infrastructure. In addition, we are expecting a population growth of 4 billion within the next 90 years [CITE][WPP2015_Methodology.pdf]. In order to facilitate these changes, we need infrastructure that is cost effective, sustainable and scales well.
 
-During the last couple of years there has been a significant increase in the number of connected devices. Hardware is getting cheaper and smaller, and the demand for information is growing. Economic prosperity, ageing population, the growing middle income population and sensitive public policy are key demand drivers for better healthcare and infrastructure. In addition, we are expecting a population growth of 4 billion within the next 90 years [2][WPP2015_Methodology.pdf]. In order to facilitate all this, we need an infrastructure that is cost effective, sustainable and scales well.
+How the healthcare adapts in this time of change will have a major impact on how this expected population growth impact our societies. Today, one of the most radical changes to our current practices is likely to come from the prevalence of new sensory technology, measuring tools and techniques, and what we manage to do with the data collected from these sensors. These sensors may take many forms, but have a set of common qualities; they’re small, energy effective and operate with one or more wireless technologies.
 
-How the healthcare adapts in this time of change will have a major impact on how this expected population growth impact our societies. Today, one of the most radical changes to our current practices is likely to come from the prevalence of new sensory technology, measuring tools and techniques, and what we manage to do with the data. These sensors may take many forms, but have a set of common qualities; they’re small, energy effective and operate with one or more wireless technologies. <!-- In this thesis we will study the feasibility of utilising this technology in a hospital environment, and look at how it may contribute to change existing practices. -->
+One possible orchestration of these sensors are in a wireless body area network, or WBAN for short. This is a collective term for wireless networks situated inside, on or around the human body. The term originated around 1995 with the idea applying wireless personal area networks (WPAN) technology to on, or in-body devices[CITE][2010 Implementation of wireless body area networks for healthcare systems]. This means entire systems of devices communicating with each other in immediate proximity of a human body. Researchers have the past 20 years investigated applications, optimizations and possibilities of WBANs. The technology however, has until recent years not been small enough nor energy efficient enough for networks like these to be practically feasible for patient monitoring.
 
+Electronic patient monitoring is today an established practice at modern hospitals. It involves *repeated or continuous observations or measurements of patients, their physiological functions, and the function of the life support equipment* [CITE][Hudson L. Respir. Care 1985; 30: 638 ff]. A monitoring system that affords good management decisions, can only be created by studying and finding the optimal compromise between several design factors; clinical, engineering and economic [CITE][1970 The aim and philosophy of patient monitoring]. Because of this multidisciplinary nature, we use the following definition throughout this thesis:
 
-## Existing research
+> A repeated or continuous measurement of the physiological functions of one or more patients.
 
-	[-] summarise existing research
-		[-] Knowledge gaps
-		[-] research questions or goals
-		[-] Describe similar solutions to the problem
-	
-	> What is done earlier to address this problem?
-	> What is wrong with earlier research?	
+SIDENOTE: See chapter 3 for a complete overview of common metrics
 
-Many before me have pointed out the need for cheaper wireless patient monitoring in both health and medical care. Some are prone to technological determinism and promote the need strictly based on technological advances [2006 System architecture WBAN u-health Otto]. I.e. "Wireless body area networks promise to revolutionise health monitoring". They emphasise on the possible economic gains of utilising cost effective and available technology do continuous health monitoring. As well as the (possible) medical gains the increased amount of data available promise to deliver. Some focus only on in-hospital patients[SYKEHUSPASIENTER], while others have been researching remote patient monitoring outside the hospital. These different approaches ties into the healthcare development, which I will discuss further in section HEALTHCARE_DEVELOPMENT_SECTION.
+An electrocardiography (ECG) test produces one example of such physiological metric. First invented by Willem Einthoven in the early 1900's, it is a technique that captures the electrical activity of the heart over time. Throughout this thesis, ECG will be used as a benchmark because of it's technical requirements.
 
-Following the Design Science methodology, our approach in this research project was fundamentally different. 
+// Todo: Bluetooth Low Energy
 
+### Contributions of the paper
 
+// TK Who was my main data sources and contributors? How did they participate in this project? Mention the most influential people I've talked with.
 
-## Approach
+### Structure
 
-	[-] Overview of research strategies and methods that have been used
-	[-] Summaries the contributions of the paper ,
-	[-] outlines the significance of these contributions
-	[-] describe the structure of the remainder of the paper.
-
-**Product**
-The main product of this research will be an artefact that solves the practical problem of ambulatory patient monitoring, along with the knowledge produced in the process. Towards reaching this goal, there are sub-products relating to the research questions as well as the main product. One such sub-product will take the form of a test bed comprising both software and hardware for wirelessly monitoring physiological data, connecting to different gateways and transporting data from patients to a hospital information system. This will enable us to do experiments where we can test different considerations regarding both functional and non-functional requirements. The knowledge gained will form the basis for my master thesis which is due June 2016.
-
-
-**Participants and contributions**
-> Talk about different participants. Frank and Pieter - and who owns the rights to this research/ who should be attributed for this research.
-
-> What will be my main data sources? And how will they participate to this research?
-
-
-**Contributions of the paper**
-The rights to this research belong to Pieter Toussaint, Frank Kramer and Rikard Eide. They should all be equally attributed the results.  My main data sources will be information gathered through interviews and through literature review. It is also worth noting that the artefact created itself will represent a source of knowledge. 
-
-
-**Strucutre**
 The rest of this paper is structured as follows:
+In chapter 2 we take a look at research methods and tactics used throughout this project. We discuss research ethics considered during information gathering. Chapter 3 introduce the practical problem selected based on our research tactics, before discussing both functional and non-functional requirements for a ECG monitoring system. Chapter 4 presents different possible architectures based on the non functional requirements and others found in literature. These are compared to an architecture for wireless monitoring systems that is widely used in Norway today. Later we introduce different wireless technologies, before presenting an artifact designed to assess some of the required capabilities of a monitoring system supporting ambulatory patients, and its development process. Chapter 5 evaluates both the artifact and the technology choices, before presenting the results from the baseline functional tests of the artifact. In chapter 6 we discuss our results and identify limitations in the study, linking them up to the methods and strategies used. Having identified these gaps we end the chapter by suggesting areas for future work. Chapter 8 concludes the paper.

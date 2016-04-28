@@ -8,7 +8,7 @@
 		[-] How the selected research strategies and methods were applied.
 
 
-> Brief introduction to how the artefact was evaluated and validated
+> Brief introduction to how the artifact was evaluated and validated
 
 
 ## Baseline functional tests
