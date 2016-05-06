@@ -28,7 +28,7 @@
 
 ### Kan brukes:
 
-**Paper som beskriver personvern:**
+**thesis som beskriver personvern:**
 
 [2014_Privacy_preserving_Big_Data_Analytics]: Se artikkel
 [2014_ARX_A_Comprehensive_Tool_for_Anonymizing_Biomedical_Data]: Se artikkel

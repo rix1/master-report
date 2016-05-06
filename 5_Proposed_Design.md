@@ -3,9 +3,9 @@
 
 # Evaluation
 
-	[-] Describe how the artefact has been evaluated.
-	[-] Describe evaluation strategy and process:
-		[-] How the selected research strategies and methods were applied.
+	// Describe how the artefact has been evaluated.
+	// Describe evaluation strategy and process:
+		// How the selected research strategies and methods were applied.
 
 
 > Brief introduction to how the artifact was evaluated and validated
@@ -13,7 +13,7 @@
 
 ## Baseline functional tests
 
-*Fundamentale egenskaper som vil guide og sette begrensninger på videre tester og implementasjon.*
+// *Fundamentale egenskaper som vil guide og sette begrensninger på videre tester og implementasjon.*
 
 **EX01: Battery**
 Måle batteriforbruk opp mot transmission rate. Hva er maks, hva er min og hva er best?

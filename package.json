@@ -1,0 +1,20 @@
+{
+  "name": "report-source",
+  "version": "1.0.0",
+  "description": "This repo contains my master report.",
+  "main": "compile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rix1/master-report.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rix1/master-report/issues"
+  },
+  "homepage": "https://github.com/rix1/master-report"
+}

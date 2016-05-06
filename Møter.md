@@ -20,3 +20,8 @@ Postrasjonalisering. Dette er ikke et byggeprosjekt, men et forskningsprosjekt.
 
 ignorer dårlige artikler. Ikke bruk tid på dem. Prøv å ha så nøytral kritikk som mulig.
 
+
+---
+
+
+vi har basert forskningsstrategien vår på litteratur og intervjuer. Ut fra disse to har vi laget en liten prototype 
