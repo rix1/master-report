@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rix1/master-report/issues"
   },
-  "homepage": "https://github.com/rix1/master-report"
+  "homepage": "https://github.com/rix1/master-report",
+  "dependencies": {
+    "concat-files": "^0.1.0"
+  }
 }
