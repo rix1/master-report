@@ -1,40 +1,28 @@
-# Method
+"# Method
 
-	// Overview of research strategies and methods that have been used
-	// Justification for the methods.
-	// Summaries the contributions of the thesis ,
-	// outlines the significance of these contributions
-	// describe the structure of the remainder of the thesis.
-	
-	---
-	
-	// Research paradigm:
-		- Positivism
-		- Interpretivism
-		- Critical research
-		
-		
+\t\t\t\t\t\t
+\t---
+\t
+\t\t\t- Positivism
+\t\t- Interpretivism
+\t\t- Critical research
+\t\t
+\t\t
 ## Research Strategies and Methods
 
-	// Overview of research strategies and methods
-
-// TK Talk about how we found the research questions. And what process this project is going to follow. Express shortcomings in previous research.
+\t
 
 Like in any projects studying involving people and technology there is an inherent complexity that the researchers have to unravel in order to understand the forces that guide the socio-technical systems in front of them.
 
-When studying these systems it is important to understand why and how an artifact works in it's environment, not only that it works. This is complete field of research in itself, and several approaches to achieving this insight have been proposed [CITE][TK Design thinking and others]. My approach was influenced by both the Design Science methodology, my personal experience and IBM's framework for Design Thinking: Observe > Reflect > Make.
+When studying these systems it is important to understand why and how an artifact works in it's environment, not only that it works. This is complete field of research in itself, and several approaches to achieving this insight have been proposed [7]. My approach was influenced by both the Design Science methodology, my personal experience and IBM's framework for Design Thinking: Observe > Reflect > Make.
 
-// Link your methods up to what design science say about finding data in previous research and discuss why this approach was chosen over other strategies
 
-// How I gathered requirements based on interviews and how I planned my experiments.
 
 
 
 ### Data collection and analysis
 
-	// Overview of methods of data collection and data analysis that have been used.
-
-// TK Talk about how the information gathering was conducted, and how I am going to validate my solution. Mention some considerations that will be important for the success of this project.
+\t
 
 As we will see in Chapt. 3, literature review was a major part of this research project in terms of data collection and analysis. A lot of work has been done within the field of WBANs and WSNs, and a systematic approach to gathering and analyzing and extracting knowledge from previous work was an absolute necessity. Literature was also consulted in order to learn about patient monitoring.
 
@@ -50,4 +38,4 @@ Due to the nature of this project, the research conducted would ideally take sev
 
 Should this be where I talk about usability? Considerations when researching hospital systems 
 
-// TK write about design science, the different steps/processes.
+"

@@ -32,7 +32,7 @@ function readFile(filename, callback){
 }
 
 
-const files = ["0_Preface.md", "1_Introduction.md", "2_Prestudy-and-Research-Methods.md", "3_Problem-and-Requirements.md", "4_Artefact.md", "5_Evaluation.md", "6_Discussion.md"];
+const files = ["0_Preface.md", "1_Introduction.md", "2_Method.md", "3_Interviews.md", "3_Literature Review.md", "5_Proposed_Design.md", "6_Discussion.md", "7_Conclusion.md", "8_Bibliography.md"];
 // const files = ["0_Preface.md"];
 
 let outFiles = [];
@@ -46,7 +46,9 @@ files.forEach((file) => {
 
 		let pattern = /\[CITE\]\[[a-z_0-9A-Z\s.;:-]+\]/g;
 		let single = /\[CITE\]\[[a-z_0-9A-Z\s.;:-]+\]/;
-		let comment = /\/\/([^\n])+(\n|$)/g;
+		let comment = /\/\/([^
+])+(
+|$)/g;
 
 		let match = res.match(pattern);
 		res = res.replace(comment, "");

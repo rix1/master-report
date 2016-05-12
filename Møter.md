@@ -1,27 +1,9 @@
-møte med frank og pieter
+*The purpose of this master thesis is to investigate the required capabilities of a wireless monitoring system for ECG monitoring, in order to assess the feasibility of introducing Bluetooth Low Energy wireless sensors for data collection today. We will investigate how the Bluetooth technology can be evaluated experimentally for a set of use cases*
 
-Ha gode forskningsspørsmål. 
+1. Is Bluetooth an appropriate protocol for medical applications such as continuous ECG monitoring? We will look at the technical qualities of Bluetooth and evaluate against the capability requirements of a wireless monitoring system with respect to practical aspects such as energy consumption, range and transfer rate. These aspects will be tested experimentally with a prototype. If applicable, what is the desired configuration?
 
-se på forskningsspørsmål. Revurder:
-	- Hva ønsker jeg å undersøke
-	- Hvorfor?
-	- Hvordan ønsker jeg å gjøre det?
-	- Hvilket utfall tror jeg det kommer til å ha?
-	
+Wireless transfer of data is a huge cost on battery. 
 
-Prøv å ikke ha noe bias til en teknologi eller løsning. Skriv forklarende og objektivt om behov som er knyttet til forskjellige use cases.
+2. What are todays ECG monitoring practices? How can these routines be adjusted to accommodate for low energy monitoring?
 
-ikke konkluder med én løsning. Match egenskaper ved en teknologi med krav. Evaluer teknologien; hvor godt passer den til formålet basert på XYZ?
-
-Hva har jeg tatt i betraktning? Ikke oppsummer uten å diskutere i en kontekst.
-
-Postrasjonalisering. Dette er ikke et byggeprosjekt, men et forskningsprosjekt. 
-
-
-ignorer dårlige artikler. Ikke bruk tid på dem. Prøv å ha så nøytral kritikk som mulig.
-
-
----
-
-
-vi har basert forskningsstrategien vår på litteratur og intervjuer. Ut fra disse to har vi laget en liten prototype 
+3. 

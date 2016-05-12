@@ -18,7 +18,42 @@ SIDENOTE: See chapter 3 for a complete overview of common metrics
 
 An electrocardiography (ECG) test produces one example of such physiological metric. First invented by Willem Einthoven in the early 1900's, it is a technique that captures the electrical activity of the heart over time. Throughout this thesis, ECG will be used as a benchmark because of it's technical requirements.
 
-// Todo: Bluetooth Low Energy
+
+### Problem statement
+
+		X What is the problem? Whose problem is it? 2-3 refs that confirm this is relevant
+		X What has been done to address the problem? No one has ever tested this wrt. BLE
+		
+The purpose of this master thesis is to investigate the required capabilities of a wireless monitoring system for ECG monitoring, in order to assess the feasibility of introducing Bluetooth Low Energy wireless sensors for data collection today. We will investigate how the Bluetooth technology can be evaluated experimentally for a set of use cases.
+
+1. Is Bluetooth an appropriate protocol for medical applications such as continuous ECG monitoring? We will look at the technical qualities of Bluetooth and evaluate against the capability requirements of a wireless monitoring system with respect to practical aspects such as energy consumption, range and transfer rate. These aspects will be tested experimentally with a prototype. If applicable, what is the desired configuration?
+
+Wireless transfer of data is a huge cost on battery. 
+
+2. What are todays ECG monitoring practices? How can these routines be adjusted to accommodate for low energy monitoring?
+
+3. 
+
+
+### Existing research
+
+	// summarise existing research
+		// Knowledge gaps
+		// research questions or goals
+		// Describe similar solutions to the problem
+	
+	// What is done earlier to address this problem?
+	// What is wrong with earlier research?
+	
+	// Purpose:
+		- What is wrong with earlier research?
+		- Clearly defined research questions
+	
+
+Patient monitoring has been practiced for decades. Zimmerman popularized the term PAN in 2001, which later that year was modified to body area network (BAN) in order to describe network enabled devices communication on in and near the body.
+
+// TK Summarize the most best/important articles you read
+
 
 ### Contributions of the thesis
 
@@ -30,6 +65,3 @@ An electrocardiography (ECG) test produces one example of such physiological met
 // TK Who was my main data sources and contributors? How did they participate in this project? Mention the most influential people I've talked with.
 
 ### Structure
-
-The rest of this thesis is structured as follows:
-In chapter 2 we take a look at research methods and tactics used throughout this project. We discuss research ethics considered during information gathering. Chapter 3 introduce the practical problem selected based on our research tactics, before discussing both functional and non-functional requirements for a ECG monitoring system. Chapter 4 presents different possible architectures based on the non functional requirements and others found in literature. These are compared to an architecture for wireless monitoring systems that is deployed in Norway today. Later we present an artifact designed to assess some of the required capabilities of a monitoring system supporting ambulatory patients, and its development process. Chapter 5 evaluates both the artifact and the technology, before presenting the results from the baseline functional tests of the artifact. In chapter 6 we discuss our results and identify limitations in the study, linking them up to the methods and strategies used. Having identified these gaps we end the chapter by suggesting areas for future work. Chapter 8 concludes the thesis.
